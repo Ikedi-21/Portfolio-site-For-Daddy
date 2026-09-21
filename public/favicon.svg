@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="108" fill="#0B1630"/>
+  <g transform="translate(256, 256)">
+    <!-- Outer accent ring -->
+    <circle r="190" fill="none" stroke="#D4AF37" stroke-width="8" opacity="0.35"/>
+    
+    <!-- Left Interlocking O -->
+    <g transform="translate(-48, 0) rotate(-12)">
+      <ellipse cx="0" cy="0" rx="90" ry="145" fill="none" stroke="#D4AF37" stroke-width="34"/>
+      <ellipse cx="0" cy="0" rx="90" ry="145" fill="none" stroke="#E0C07A" stroke-width="12" opacity="0.8"/>
+    </g>
+
+    <!-- Right Interlocking O -->
+    <g transform="translate(48, 0) rotate(12)">
+      <ellipse cx="0" cy="0" rx="90" ry="145" fill="none" stroke="#D4AF37" stroke-width="34"/>
+      <ellipse cx="0" cy="0" rx="90" ry="145" fill="none" stroke="#E0C07A" stroke-width="12" opacity="0.8"/>
+    </g>
+  </g>
+</svg>

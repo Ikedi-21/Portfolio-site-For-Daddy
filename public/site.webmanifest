@@ -1,0 +1,21 @@
+{
+  "name": "Prof. Osita Ogbu, OON, FNAE - Official Portfolio",
+  "short_name": "Prof. Osita Ogbu",
+  "description": "Official portfolio of Prof. Osita Ogbu, OON, FNAE. Development economist, former Presidential Adviser, author",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0B1630",
+  "theme_color": "#0B1630",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
