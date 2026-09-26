@@ -46,6 +46,8 @@ prof-ogbu-portfolio/
 │   ├── robots.txt
 │   └── sitemap.xml
 ├── scripts/
+├── docs/
+│   └── bio.md                  standalone biography for press and reference use
 ├── src/
 │   ├── components/           Navigation, Hero, About, Timeline, Publications,
 │   │                         Speaking, Roles, Honours, Quotes, Contact, Footer
@@ -107,10 +109,10 @@ Rules for content:
 
 These are unresolved and must be settled before the site goes public.
 
-- [ ] Birthplace: the spec says Onitsha, Wikipedia says Nsukka. Confirm with family. `birthplace` is hidden until confirmed.
-- [ ] Any adviser appointment during the Goodluck Jonathan administration: add to the timeline only with the exact title, years, and a source.
-- [ ] Verified quote: confirm the exact wording against the original news report.
-- [ ] Three unverified quotes: find sources or leave them hidden.
+- [x] Birthplace: Onitsha, Anambra State, confirmed with family. Wikipedia previously listed Nsukka.
+- [x] Adviser appointment during the Goodluck Jonathan administration: none. His only presidential adviser role was under President Olusegun Obasanjo, November 2005 to November 2006.
+- [x] Verified quotes: two verbatim lines confirmed against Vanguard, 11 May 2025, "Enugu North stakeholders describe Mbah as a proactive, responsive leader", and one against Blueprint, 23 August 2025, "Nigerian varsities churning out students, not solutions – Ex-minister Ogbu".
+- [ ] Three unverified quotes: find sources or leave them hidden. The NESG fireside chat of 24 April 2025 is the likely source of some of them, but the published page is not machine-readable, so the wording could not be confirmed.
 - [ ] Four publications in `needsVerification` (may belong to a different author with a similar name).
 - [ ] Publication details (year, publisher, role, co-authors) checked against each book's catalogue page.
 - [ ] Publication links: run `scripts/check-links.mjs` and confirm each page shows the right book.

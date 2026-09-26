@@ -9,7 +9,7 @@ export const profile = {
   photo: "/images/osita-001.webp",
   tagline: "Development Economist | Former Presidential Adviser | Author",
   birthDate: "29 September 1957",
-  birthplace: null,
+  birthplace: "Onitsha, Anambra State, Nigeria",
   hometown: "Ovoko, Igbo-Eze South LGA, Enugu State, Nigeria",
   education: [
     "B.Sc. Economics, University of Nigeria, Nsukka (1979)",
@@ -21,7 +21,7 @@ export const profile = {
     "Holy Trinity Primary School, Onitsha",
     "St. Teresa's College, Nsukka"
   ],
-  shortBio: "Prof. Osita Michael Ogbu is a Nigerian development economist whose work has covered academia, international development, and government service. He served as Chief Economic Adviser to the President of Nigeria and Minister of National Planning from 2005 to 2006, and as Chairman of the Governing Council of the Nigerian Institute of Social and Economic Research (NISER) from 2008 to 2011. Before those appointments, he worked with the World Bank and IDRC, and served as Executive Director/CEO of the African Technology Policy Studies Network (ATPS). He is Professor of Economics at the University of Nigeria and Managing Director/CEO of African Development Solutions International."
+  shortBio: "Prof. Osita Michael Ogbu is a Nigerian development economist whose work has covered academia, international development, and government service. He served as Chief Economic Adviser to the President of Nigeria and Minister of National Planning from November 2005 to November 2006, under President Olusegun Obasanjo, and as Chairman of the Governing Council of the Nigerian Institute of Social and Economic Research (NISER) from 2008 to 2011. Before those appointments, he worked with the World Bank and IDRC, and served as Executive Director/CEO of the African Technology Policy Studies Network (ATPS). He is Professor of Economics at the University of Nigeria and Managing Director/CEO of African Development Solutions International."
 };
 
 // Government Service: pending confirmation of any additional adviser appointment, do not add without a source.
@@ -38,8 +38,8 @@ export const timeline = {
     { years: "2012", title: "Visiting Fellow", organisation: "Brookings Institution" }
   ],
   "Government Service": [
-    { years: "2005-2006", title: "Chief Economic Adviser to the President of Nigeria", organisation: "Federal Government of Nigeria" },
-    { years: "2005-2006", title: "Minister of National Planning", organisation: "Federal Government of Nigeria" },
+    { years: "Nov 2005 - Nov 2006", title: "Chief Economic Adviser to the President of Nigeria", organisation: "Federal Government of Nigeria, President Olusegun Obasanjo" },
+    { years: "Nov 2005 - Nov 2006", title: "Minister of National Planning", organisation: "Federal Government of Nigeria, President Olusegun Obasanjo" },
     { years: "2008-2011", title: "Chairman, Governing Council", organisation: "NISER" }
   ],
   "Recognition & Boards": [
@@ -226,8 +226,24 @@ export const honours = [
 
 export const quotes = [
   {
-    text: "Nigerian universities had become degree-producing factories instead of solution providers",
-    source: "2025 public statement",
+    text: "He is turning Enugu State into an entrepreneurial state, just like the transformations seen in China, Malaysia, and Israel under their visionary leaders",
+    source: "Vanguard, 11 May 2025",
+    sourceTitle: "Enugu North stakeholders describe Mbah as a proactive, responsive leader",
+    url: "https://www.vanguardngr.com/2025/05/enugu-north-stakeholders-describe-mbah-as-a-proactive-responsive-leader/",
+    verified: true
+  },
+  {
+    text: "We are among the three states in the country that can say goodbye to Federal Allocation",
+    source: "Vanguard, 11 May 2025",
+    sourceTitle: "Enugu North stakeholders describe Mbah as a proactive, responsive leader",
+    url: "https://www.vanguardngr.com/2025/05/enugu-north-stakeholders-describe-mbah-as-a-proactive-responsive-leader/",
+    verified: true
+  },
+  {
+    text: "We think universities are set up to produce students, not to solve societal problems. That is one of our greatest crises",
+    source: "Blueprint, 23 August 2025",
+    sourceTitle: "Nigerian varsities churning out students, not solutions – Ex-minister Ogbu",
+    url: "https://blueprint.ng/nigerian-varsities-churning-out-students-not-solutions-ex-minister-ogbu/",
     verified: true
   },
   {
